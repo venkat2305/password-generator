@@ -1,16 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&family=Karla:wght@800&display=swap");
 
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #1c1c1c;
+  
 }
 
 body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #1c1c1c;
 }
 
 .container {
@@ -25,7 +26,7 @@ body {
   font-family: "Karla", sans-serif;
   font-size: 40px;
   line-height: 40px;
-  margin-top: 60px;
+  margin: 60px 0 10px 0;
   padding: 40px 0 0 52px;
 }
 
@@ -77,6 +78,6 @@ body {
 }
 hr {
   border: 1px solid #2f3e53;
-  margin-bottom: 25px;
-  width: 80%;
+  margin: 10px 50px 0 50px;
 }
+
