@@ -65,6 +65,9 @@ body {
   font-weight: 500;
   border: none;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .genpass {
@@ -81,6 +84,4 @@ body {
 }
 hr {
   border: 1px solid #2f3e53;
-
 }
-

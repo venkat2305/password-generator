@@ -1,7 +1,7 @@
 ## To do
 
 1. ability to set the password length
-2. Add “copy-on-click”
+2. improve “copy-on-click”
 3. Toggle “symbols” and “numbers” on/off
 4. Make it responsive(mobile view) probably try to add padding to the conatiner instead of adding padding to every element
 
@@ -16,3 +16,7 @@
 4. Avoid using br for presentational purposes. instead use a p tag
 
 5. Never use the HTML event handler attributes. It is never a good idea to mix up HTML and JavaScript. It's best to keep them separated.
+
+6. to copy the text to clipboard use `navigator.clipboard.writeText(value which has to be copied);`
+
+7. don't use `.value` while copying to clipborad , use `.textconentet`

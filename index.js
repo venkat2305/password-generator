@@ -21,10 +21,10 @@ genPass.addEventListener("click", function () {
 });
 
 pass1Btn.addEventListener("click", function () {
-  navigator.clipboard.writeText(pass1Btn.value);
-  alert("Copied the text: " + pass1Btn.value);
+  navigator.clipboard.writeText(pass1Btn.textContent);
+  alert("Copied the text: " + pass1Btn.textContent);
 });
 pass2Btn.addEventListener("click", function () {
-  navigator.clipboard.writeText(pass2Btn.value);
-  alert("Copied the text: " + pass2Btn.value);
+  navigator.clipboard.writeText(pass2Btn.textContent);
+  alert("Copied the text: " + pass2Btn.textContent);
 });
